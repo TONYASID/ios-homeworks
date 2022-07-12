@@ -7,34 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848CA18A284F4B6B009ADBB2 /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CA189284F4B6B009ADBB2 /* NavigationApp.swift */; };
-		848CA18C284F4B6B009ADBB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CA18B284F4B6B009ADBB2 /* ContentView.swift */; };
-		848CA18E284F4B70009ADBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CA18D284F4B70009ADBB2 /* Assets.xcassets */; };
-		848CA191284F4B70009ADBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848CA190284F4B70009ADBB2 /* Preview Assets.xcassets */; };
 		848CA19B284F4B70009ADBB2 /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CA19A284F4B70009ADBB2 /* NavigationTests.swift */; };
 		848CA1A5284F4B71009ADBB2 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CA1A4284F4B71009ADBB2 /* NavigationUITests.swift */; };
 		848CA1A7284F4B71009ADBB2 /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CA1A6284F4B71009ADBB2 /* NavigationUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		848CA197284F4B70009ADBB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 848CA17E284F4B6B009ADBB2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 848CA185284F4B6B009ADBB2;
-			remoteInfo = Navigation;
-		};
-		848CA1A1284F4B71009ADBB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 848CA17E284F4B6B009ADBB2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 848CA185284F4B6B009ADBB2;
-			remoteInfo = Navigation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		848CA186284F4B6B009ADBB2 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848CA189284F4B6B009ADBB2 /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
 		848CA18B284F4B6B009ADBB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		848CA18D284F4B70009ADBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,13 +25,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		848CA183284F4B6B009ADBB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		848CA193284F4B70009ADBB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,7 +55,6 @@
 		848CA187284F4B6B009ADBB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				848CA186284F4B6B009ADBB2 /* Navigation.app */,
 				848CA196284F4B70009ADBB2 /* NavigationTests.xctest */,
 				848CA1A0284F4B71009ADBB2 /* NavigationUITests.xctest */,
 			);
@@ -130,23 +100,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		848CA185284F4B6B009ADBB2 /* Navigation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 848CA1AA284F4B71009ADBB2 /* Build configuration list for PBXNativeTarget "Navigation" */;
-			buildPhases = (
-				848CA182284F4B6B009ADBB2 /* Sources */,
-				848CA183284F4B6B009ADBB2 /* Frameworks */,
-				848CA184284F4B6B009ADBB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Navigation;
-			productName = Navigation;
-			productReference = 848CA186284F4B6B009ADBB2 /* Navigation.app */;
-			productType = "com.apple.product-type.application";
-		};
 		848CA195284F4B70009ADBB2 /* NavigationTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848CA1AD284F4B71009ADBB2 /* Build configuration list for PBXNativeTarget "NavigationTests" */;
@@ -158,7 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				848CA198284F4B70009ADBB2 /* PBXTargetDependency */,
 			);
 			name = NavigationTests;
 			productName = NavigationTests;
@@ -176,7 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				848CA1A2284F4B71009ADBB2 /* PBXTargetDependency */,
 			);
 			name = NavigationUITests;
 			productName = NavigationUITests;
@@ -193,9 +144,6 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					848CA185284F4B6B009ADBB2 = {
-						CreatedOnToolsVersion = 13.0;
-					};
 					848CA195284F4B70009ADBB2 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 848CA185284F4B6B009ADBB2;
@@ -219,7 +167,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				848CA185284F4B6B009ADBB2 /* Navigation */,
 				848CA195284F4B70009ADBB2 /* NavigationTests */,
 				848CA19F284F4B71009ADBB2 /* NavigationUITests */,
 			);
@@ -227,15 +174,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		848CA184284F4B6B009ADBB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				848CA191284F4B70009ADBB2 /* Preview Assets.xcassets in Resources */,
-				848CA18E284F4B70009ADBB2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		848CA194284F4B70009ADBB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,15 +191,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		848CA182284F4B6B009ADBB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				848CA18C284F4B6B009ADBB2 /* ContentView.swift in Sources */,
-				848CA18A284F4B6B009ADBB2 /* NavigationApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		848CA192284F4B70009ADBB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,19 +209,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		848CA198284F4B70009ADBB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 848CA185284F4B6B009ADBB2 /* Navigation */;
-			targetProxy = 848CA197284F4B70009ADBB2 /* PBXContainerItemProxy */;
-		};
-		848CA1A2284F4B71009ADBB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 848CA185284F4B6B009ADBB2 /* Navigation */;
-			targetProxy = 848CA1A1284F4B71009ADBB2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		848CA1A8284F4B71009ADBB2 /* Debug */ = {
@@ -411,64 +327,6 @@
 			};
 			name = Release;
 		};
-		848CA1AB284F4B71009ADBB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigation/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Create-Git-repository-on-my-Mac.Navigation";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		848CA1AC284F4B71009ADBB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigation/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Create-Git-repository-on-my-Mac.Navigation";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		848CA1AE284F4B71009ADBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -569,15 +427,6 @@
 			buildConfigurations = (
 				848CA1A8284F4B71009ADBB2 /* Debug */,
 				848CA1A9284F4B71009ADBB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		848CA1AA284F4B71009ADBB2 /* Build configuration list for PBXNativeTarget "Navigation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				848CA1AB284F4B71009ADBB2 /* Debug */,
-				848CA1AC284F4B71009ADBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
